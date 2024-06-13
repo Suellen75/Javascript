@@ -1,0 +1,14 @@
+function setup() {
+  createCanvas(600, 600);
+}
+function draw() {
+//   Fazendo com que o retângulo só apareça quando o mouse for clicado
+  if (mouseIsPressed) {
+//     Criando o retângulo
+    rect (mouseX,mouseY,20,35) //  Fazendo o retângulo seguir o ponteiro do mouse
+  }
+//   Definido cor interna do retângulo
+  fill ("#009688")
+//   Definindo a cor da borda do retângulo
+  stroke ("black")
+}
